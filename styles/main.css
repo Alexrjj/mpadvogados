@@ -6,13 +6,9 @@
     --marrom-site: #532e1c;
     --marrom-logo: #452315;
     --preto: #0f0f0f;
-    --body-fonte: Merriweather, Arial, Helvetica, sans-serif;
+    --body-fonte: Merriweather, Arial, Helvetica, sans-serif !important;
     --paragrafo: 1.25rem;
     --conteudo-principal: 1000px;
-}
-
-h1, h2, h3, p {
-    margin: 0;
 }
 
 a {
@@ -24,12 +20,8 @@ img {
     display: block;
 }
 
-p {
-    font-size: var(--paragrafo);
-}
 
 body {
-    margin: 0;
     font-family: var(--body-fonte);
 }
 
