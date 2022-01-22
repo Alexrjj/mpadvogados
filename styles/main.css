@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --cinza: #e6e6e6;
+    --bege: #c5a880;
+    --marrom-site: #532e1c;
+    --marrom-logo: #452315;
+    --preto: #0f0f0f;
+    --body-fonte: Merriweather, Arial, Helvetica, sans-serif;
+    --paragrafo: 1.25rem;
+    --conteudo-principal: 1000px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+p {
+    font-size: var(--paragrafo);
+}
+
+body {
+    margin: 0;
+    font-family: var(--body-fonte);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
