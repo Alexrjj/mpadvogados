@@ -15,8 +15,8 @@
 
 @font-face {
     font-family: "DroidSans";
-    src: url("../mpadvogados/fonts/DroidSerif-Regular.ttf"),
-    url("https://github.com/Alexrjj/mpadvogados/fonts/DroidSerif-Regular.ttf") format("truetype");
+    src: url("../fonts/DroidSerif-Regular.ttf"),
+        url("../fonts/DroidSerif-Regular.ttf") format("truetype");
 }
 
 a {
@@ -53,7 +53,7 @@ h2 {
     letter-spacing: 0.15rem;
 }
 
-h4 a{
+h4 a {
     font-size: 26px;
     color: var(--bege);
 }
@@ -184,20 +184,20 @@ nav li::before {
     border: 3px solid transparent;
 }
 
-nav li a:active {    
+nav li a:active {
     display: flex;
-    border: 3px solid var(--bege); 
+    border: 3px solid var(--bege);
 }
 
-nav li:hover::before{
+nav li:hover::before {
     content: '';
     display: flex;
-    border: 3px solid var(--bege); 
+    border: 3px solid var(--bege);
     /* transition: 0.5s; */
     transition: 0.3s ease-out all;
 }
 
-nav ul a:hover{
+nav ul a:hover {
     color: var(--marrom-logo)
 }
 
@@ -218,7 +218,8 @@ main {
     justify-items: center;
 }
 
-.team-content, .googlemaps {
+.team-content,
+.googlemaps {
     max-width: 1400px;
 }
 
@@ -240,7 +241,9 @@ main {
     justify-items: center;
 }
 
-.contato h3, .consultation h3, .specialization h3 {
+.contato h3,
+.consultation h3,
+.specialization h3 {
     text-align: center;
     margin: 3rem 0 0;
     padding: 0;
@@ -284,7 +287,7 @@ main {
     border-radius: 100%;
     padding: 1rem;
     color: white;
-    
+
 }
 
 .card-body {
@@ -325,7 +328,8 @@ main {
     align-items: center;
 }
 
-.contato textarea, .contato input{
+.contato textarea,
+.contato input {
     border-color: #f2dede;
     color: #9f9f9f;
     background: #f6f6f6;
@@ -351,7 +355,7 @@ main {
     line-height: 1.5;
 }
 
-.btn-primary{
+.btn-primary {
     color: #fff;
     border-color: #b59a6c;
     background-color: #b59a6c;
@@ -442,7 +446,7 @@ footer {
 }
 
 .footer-info {
-    
+
     text-align: left;
     font-size: 1rem;
 }
@@ -452,7 +456,8 @@ footer {
     justify-self: center;
 }
 
-.footer-work-hours, .footer-contact {
+.footer-work-hours,
+.footer-contact {
     line-height: 1.6;
 }
 
