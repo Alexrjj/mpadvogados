@@ -15,7 +15,8 @@
 
 @font-face {
     font-family: "DroidSans";
-    src: url("https://github.com/Alexrjj/mpadvogados/fonts/DroidSerif-Regular.ttf");
+    src: url("../mpadvogados/fonts/DroidSerif-Regular.ttf"),
+    url("https://github.com/Alexrjj/mpadvogados/fonts/DroidSerif-Regular.ttf") format("truetype");
 }
 
 a {
